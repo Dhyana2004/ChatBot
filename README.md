@@ -116,4 +116,19 @@ hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5,
 model.save('chatbot_model.h5', hist)
 print("Model training and saving completed")
 
+## Dependencies
+
+Dependencies
+Python 3.x
+TensorFlow
+NLTK
+NumPy
+Keras
+Pickle
+
+Install the dependencies using:
+```bash
+pip install tensorflow nltk numpy keras
+```
+
 
