@@ -116,9 +116,7 @@ hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5,
 model.save('chatbot_model.h5', hist)
 print("Model training and saving completed")
 
-Running the Chatbot
-To start the chatbot, run the following script:
-
+## Running the chatbot
 import random
 import json
 import pickle
